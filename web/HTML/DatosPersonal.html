@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Datos Personales</title>
+        
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="../CSS/estiloDatosPersonales.css">
+    </head>
+    <body>
+      
+        <form id="DatosPersonales" method="post" action="../DatosPersonales">
+            
+          
+            <p id="Titulo"><i>Informacion personal</i></p>
+            <p>nombre: <input type="text" name="nombre"></p>
+            <p>apellido: <input type="text" name="apellido"></p>
+             <label>Sexo:</label>
+			<label>Hombre</label><input type="radio" name="estado" checked="checked" value="Hombre"/>
+			<label>Mujer</label><input type="radio" name="estado" value="Mujer"/></br></br>
+              <label>Fecha de nacimiento:</label>
+ 			<label>dia: </label><input type="number" name="dia" min="1" max="31" value="10" required="required"/>
+                        <label>mes: </label><input type="number" name="mes" min="1" max="12" value="10" required="required"/>
+                        <label>anio: </label><input type="number" name="anio" min="1900" max="2016" value="1900" required="required"/></br></br>
+
+                        <p id="Titulo"><i>Datos de acceso</i></p>
+       <p>usuario: <input type="text" name="usuario"></p>
+       <p>contrase&ntilde;a: <input type="text" name="contrasenia"></p>
+       <p id="Titulo" ><i>informacion General</i></p>
+       <p>Deporte: <input type="checkbox" name="checkbox" value="Deporte"></p>
+       <p>Lectura: <input type="checkbox" name="checkbox" value="Lectura"></p>
+       <p>Cine: <input type="checkbox" name="checkbox" value="Cine"></p>
+       <p>Viajes: <input type="checkbox" name="checkbox" value="Viajes" checked="checked"></p>
+        <div id="botones"> 
+                    <input type="submit" name="Enviar" value="Enviar"/> <input type="reset" name="Limpiar" value="Limpiar"/>
+                </div>
+
+            
+      </form>
+    </body>
+</html>

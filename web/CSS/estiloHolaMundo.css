@@ -1,0 +1,13 @@
+body {
+    background-image: url("../IMAGENES/holaMundo.jpg");
+    background-size: 100%;
+    background-position: top;
+}
+#Saludo{
+    text-align: center;
+    font: 150% sans-serif;
+    color: white;
+}
+#volver{
+    color: white;
+}

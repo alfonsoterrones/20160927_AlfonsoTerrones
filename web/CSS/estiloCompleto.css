@@ -1,0 +1,32 @@
+body{
+    color:#990033;
+    width: 500px;
+    background-color: #CCFF99;
+}
+#tipo1{
+  background-color: #99FF00;
+  float: left;
+  padding:0%;
+  padding-right: 300px;
+  text-align: left;   
+}
+#tipo2{
+  background-color: #99FF00;
+  float: left;
+  padding:0%;
+  padding-right: 150px;
+  text-align: left;
+}
+#tipo3{
+  background-color: #99FF00;
+  float: left;
+  padding:0%;
+  padding-right: 300px;
+  text-align: left;
+}
+body > h1{
+    color:#009900;
+}
+legend{
+    color:#009900;
+}

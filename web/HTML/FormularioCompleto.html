@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estiloCompleto.css">
+</head>
+
+<body>
+    <h1>Formulario Completo</h1>
+    <fieldset id="tipo1">
+        <legend><i>Datos Personales</i></legend>
+        <form id="formularioCompleto" method="get" action="../FormularioCompleto">
+            <br/>
+            <label>Nombre</label><input type="text" name="nombre" /><br/>
+            <label>Apellidos</label><input type="text" name="apellidos" /><br/>
+            <label>Seleccionado</label><input type="checkbox" name="seleccionado" value="Seleccionado" />
+            <br/>
+            <label>Edad: </label><input type="number" name="edad" min="10" max="30" value="10" required="required"/>
+            </fieldset> 
+            <fieldset id="tipo2">
+                <legend><i>Otros Datos</i></legend>
+            <label>Estado civil:</label>
+			<label>Soltero</label><input type="radio" name="estado" value="Soltero"/>
+			<label>Casado</label><input type="radio" name="estado" value="Casado"/>
+			<label>Viudo</label><input type="radio" name="estado" value="Viudo"/>
+			<label>Divorciado</label><input type="radio" name="estado" value="Divorciado"/></br></br>
+            <label>Aficiones (uno o varios, CTRL)</label><br/>
+			<select name="aficiones" multiple="multiple">
+			    <option value="Deporte">Deporte</option>
+                            <option value="Musica">M&uacute;sica</option>
+                            <option value="Informatica">Inform&aacute;tica</option>
+			    <option value="Viajes">Viajes</option>
+			    <option value="Tiendas">Tiendas</option>
+			    <option value="Juegos">Juegos</option>
+			</select>
+            <br/>Comentarios:<br/>
+			<textarea name="textarea" rows="2" cols="50">Introduce los comentarios aqui...
+			</textarea>
+             </fieldset>
+            <fieldset id="tipo3">
+		    <legend>Medios tecnol&oacute;gicos</legend>
+                    <label>¿Dispones de internet?</label></br>
+			<label>Si</label><input type="radio" name="internet" value="Si"/><label>No</label><input type="radio" name="internet" value="No"/>
+                        <br/><br/><label>Sistema operativo</label><select name="sistema"/>
+			    <option value="Linux">Linux</option>
+			    <option value="Windows">Windows</option>
+			    <option value="Macintosh">Macintosh</option>
+			    <option value="Solaris">Solaris</option>
+			</select><br/>
+		</fieldset>
+  
+            <input type="submit" value="Enviar formulario" />
+       
+   
+</body>
+</html>
