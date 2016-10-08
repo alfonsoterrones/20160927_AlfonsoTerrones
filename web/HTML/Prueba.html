@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Probando</title>
+        <meta charset="windows-1251">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/estiloDatosPersonales.css">
+    </head>
+    <body>
+        <form id="DatosPersonales" method="post" action="../Registro2">
+        <p id="Titulo"><i>Datos personales</i></p>
+        <p>nombre: <input type="text" name="nombre"></p>
+        <p>apellido: <input type="text" name="apellido"></p>
+        <table>
+        <tr>
+            <td><label>Sexo</label></td>
+            <td><input type="radio" name="sexo" value="Hombre"/>Hombre</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td><label></label><input type="radio" name="sexo" checked="checked" value="Mujer"/>Mujer</td>
+        </tr>
+</table>
+        <BR><label>Fecha de nacimiento:</label>
+        <label><Strong> / </Strong></label><input type="number" name="dia" min="1" max="31" value="10" required="required"/>
+        <label><Strong> / </Strong></label><input type="number" name="mes" min="1" max="12" value="10" required="required"/>
+        <label><Strong> / </Strong></label><input type="number" name="anio" min="1900" max="2016" value="1900" required="required"/></br></br>
+        <BR><p id="Titulo"><i>Datos de acceso</i></p>
+       <p>usuario: <input type="text" name="usuario"></p>
+       <p>contrase&ntilde;a: <input type="password"  name="contrasenia"></p>
+       <BR><BR><p id="Titulo" ><i>Informacion General</i></p>
+       <table>
+        <tr>
+            <td><label>Preferencias</label></td>
+            <td><input type="checkbox" name="checkbox" value="Deporte">Deporte</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td><input type="checkbox" name="checkbox" value="Lectura">Lectura</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> <input type="checkbox" name="checkbox" value="Cine">Cine</td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td><input type="checkbox" name="checkbox" value="Viajes">Viajes</td>
+        </tr>
+        </table>
+       <BR><div id="botones"> <input type="submit" name="Enviar" value="Enviar"/> <input type="reset" name="Limpiar" value="Limpiar"/>
+        </form>
+    </body>
+</html>
