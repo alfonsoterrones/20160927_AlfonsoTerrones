@@ -12,10 +12,10 @@ and open the template in the editor.
         <link rel="stylesheet" href="../CSS/estiloDatosPersonales.css">
     </head>
     <body>
-        <form id="DatosPersonales" method="post" action="../Registro2">
+        <form id="DatosPersonales" method="post" action="../Registro">
         <p id="Titulo"><i>Datos personales</i></p>
-        <p>nombre: <input type="text" name="nombre"></p>
-        <p>apellido: <input type="text" name="apellido"></p>
+        <p>*nombre: <input type="text" name="nombre"></p>
+        <p>*apellido: <input type="text" name="apellido"></p>
         <table>
         <tr>
             <td><label>Sexo</label></td>
@@ -23,7 +23,8 @@ and open the template in the editor.
         </tr>
         <tr>
             <td> </td>
-            <td><label></label><input type="radio" name="sexo" checked="checked" value="Mujer"/>Mujer</td>
+            <td><label></label><input type="radio" name="sexo"  checked="checked" value="Mujer"/>Mujer</td>
+          
         </tr>
 </table>
         <BR><label>Fecha de nacimiento:</label>
@@ -32,7 +33,7 @@ and open the template in the editor.
         <label><Strong> / </Strong></label><input type="number" name="anio" min="1900" max="2016" value="1900" required="required"/></br></br>
         <BR><p id="Titulo"><i>Datos de acceso</i></p>
        <p>usuario: <input type="text" name="usuario"></p>
-       <p>contrase&ntilde;a: <input type="password"  name="contrasenia"></p>
+       <p>*contrase&ntilde;a: <input type="password"  name="contrasenia"></p>
        <BR><BR><p id="Titulo" ><i>Informacion General</i></p>
        <table>
         <tr>
