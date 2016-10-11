@@ -30,7 +30,7 @@
                 </tr>                
                 <tr>
                     <td colspan="2"><input type="submit" name="enviar" value="Enviar"/></td>
-                    <td colspan="2"><input type="reset" name="borrar" value="Borrar" /></td>
+                    <td colspan="2"><input type="submit" name="borrar" value="Borrar" /></td>
                 </tr>
             </table>
         </form>
@@ -91,7 +91,10 @@
     
                %>
                Navegadores permitidos: <%=request.getHeader("user-agent")%> 
-               <%}%>
+               <%}
+               %>
+                out.println("<a id=\"volver\" href=\"index.html\">Volver</a>");
+                
                        
                    
                 
