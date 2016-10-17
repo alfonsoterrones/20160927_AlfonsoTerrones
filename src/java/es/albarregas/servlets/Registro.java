@@ -430,7 +430,7 @@ public class Registro extends HttpServlet {
                     }else{                       
                     }//else
                 }//While 
-         out.println("<input type=\"button\" value=\"Volver\" onclick=\"window.location.href='index.html';\"/>");
+         //out.println("<input type=\"button\" value=\"Volver\" onclick=\"window.location.href='index.html';\"/>");
              out.println("</body>");
             out.println("</form>");
             out.println("</html>");

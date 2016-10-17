@@ -8,19 +8,18 @@ body {
   text-align-last: center;
   color: red;
 }
-
-#izquierdo{
-    font: 150% sans-serif;
-    float: left;
-    padding-left: 9%;
-    padding-right: 9%;
-}
-
 #centroizquierdo{
     font: 150% sans-serif;
     float: left;
     padding-left: 9%;
     padding-right: 9%;
+    border-radius: 38px 0px 40px 0px;
+-moz-border-radius: 38px 0px 40px 0px;
+-webkit-border-radius: 38px 0px 40px 0px;
+border: 6px solid #ffffff;
+background-color: #ccb274;
+    
+
   
 }
 
@@ -29,16 +28,9 @@ body {
     float: right;
     padding-left: 9%;
     padding-right: 9%;
+background-color: #ccb274;
+    border-radius: 0px 37px 0px 40px;
+-moz-border-radius: 0px 37px 0px 40px;
+-webkit-border-radius: 0px 37px 0px 40px;
+border: 6px solid #ffffff;
 }
-
-#derecha{
-    font: 150% sans-serif;
-    float: right;
-    padding-left: 9%;
-    padding-right: 9%;
-}
-
-/*
----------------------------------------------------------------------
-*/
-
