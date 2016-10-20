@@ -87,6 +87,7 @@
             </select><br/>
             <br/>
             Cantidad: <input type="text" name="cantidad"/><br/>
+            <br/><br/>
             <input type="submit" name="Aniadir" value="Aniadir"/>
             <input type="reset"  name="Limpiar" value="Limpiar"/>
             <input type="submit" name="Comprar" value="Comprar"/>
